@@ -1,0 +1,140 @@
+body, section, header, footer, .card {
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* Geral */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(to bottom, #f8f9fa, #dee2e6);
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(to right, #343a40, #212529);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+/* Hero */
+header {
+  background: linear-gradient(to right, #007bff, #004085);
+  color: white;
+}
+
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+/* Seções genéricas */
+section {
+  background: linear-gradient(to bottom, #ffffff, #e9ecef);
+  padding: 60px 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+section p {
+  font-size: 1.1rem;
+}
+
+/* Projetos */
+#projetos {
+  background: linear-gradient(to bottom, #ffffff, #dee2e6);
+}
+
+.card {
+  transition: transform 0.3s ease;
+  background: linear-gradient(to bottom, #ffffff, #f1f3f5);
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-weight: bold;
+  color: #007bff;
+}
+
+/* Skills */
+#skills {
+  background: linear-gradient(to bottom, #212529, #343a40);
+  color: #f8f9fa;
+}
+
+#skills ul {
+  padding-left: 0;
+}
+
+#skills .list-group-item {
+  background-color: transparent;
+  border: none;
+  font-size: 1.1rem;
+  padding: 10px 0;
+  color: #f8f9fa;
+}
+
+/* Rodapé */
+footer {
+  background: linear-gradient(to right, #343a40, #1d2124);
+  color: white;
+  padding: 20px 0;
+}
+
+/* Modo Escuro */
+body.dark-mode {
+  background: linear-gradient(to bottom, #212529, #343a40);
+  color: #f8f9fa;
+}
+
+.dark-mode .navbar {
+  background: linear-gradient(to right, #1c1c1c, #343a40);
+}
+
+.dark-mode header {
+  background: linear-gradient(to right, #343a40, #1c1c1c);
+}
+
+.dark-mode section {
+  background: linear-gradient(to bottom, #2c2c2c, #1c1c1c);
+}
+
+.dark-mode #projetos {
+  background: linear-gradient(to bottom, #2a2a2a, #3c3f44); 
+  color: #f8f9fa;
+}
+
+.dark-mode #skills {
+  background: linear-gradient(to right, #1c1c1c, #343a40); 
+  color: #f8f9fa;
+}
+
+.dark-mode .card {
+  background: #3a3a3a;
+  color: #f8f9fa;
+}
+
+.dark-mode #skills .list-group-item {
+  color: #f8f9fa;
+}
+
+.dark-mode footer {
+  background: linear-gradient(to right, #1c1c1c, #343a40);
+}
